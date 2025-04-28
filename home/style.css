@@ -1,0 +1,92 @@
+@font-face {
+    font-family: "Golos UI";
+    src: url("golos-ui_vf.woff") format("woff");
+    font-weight: normal;
+}
+
+* {
+    font-family: "Golos UI";
+    margin: 0;
+    padding: 0;
+}
+
+.profile__name {
+    color: #222222;
+    height: 32px;
+    text-decoration: none;
+    margin-top: 12px;
+}
+
+.profile__portfolio {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 2%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.profile__img {
+    width: 32px;
+    height: 32px;
+}
+
+.profile__imgavatar {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.page__block {
+    background-color: #2222220D;
+    border: none;
+    border-radius: 10px;
+    width: 68px;
+    height: 25px;
+    display: flex; /*dlya vertical i horisontal */
+    align-items: center; /* vertical */
+    justify-content: center; /* horisontal */
+    gap: 2px; /* rasstoyanie */
+    margin-bottom: 10px;
+    
+}
+
+.main {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 80px;
+}
+
+.icon {
+    display: flex;
+    padding-top: 40px;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+    width: 40px;
+}
+
+.text {
+    color: #808080;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.title {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 2% 0;
+}
+
+.user {
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    align-items: center;
+}

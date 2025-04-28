@@ -1,0 +1,100 @@
+@font-face {
+    font-family: "Golos UI";
+    src: url("golos-ui_vf copy.woff") format("woff");
+    font-weight: normal;
+}
+
+* {
+    font-family: "Golos UI";
+    padding: 0;
+    margin: 0;
+}
+
+
+.block {
+    background-color: darkgray;
+    border: none;
+    border-radius: 10px;
+    width: 68px;
+    height: 25px;
+}
+
+.main {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 80px;
+}
+
+.icon {
+    display: flex;
+    padding-top: 40px;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+    width: 40px;
+}
+
+.text {
+    color: #808080;
+}
+
+.avatar {
+    width: 132px;
+    margin-bottom: 20px;
+}
+
+.title {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pencil {
+    margin-left: 80%;
+}
+
+.name {
+    font-family: Golos UI;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 32px;
+    letter-spacing: -0.25px;
+    text-align: center;
+    vertical-align: middle;
+    color: #222222;
+    margin-bottom: 16px;
+}
+
+.text {
+    margin-bottom: 10px;
+    max-width: 400px;
+    text-align: center;
+}
+.post-block {
+    padding: 5px;
+    background: #F2F3F5;
+    border: none;
+    border-radius: 6px;
+    display: flex; /*dlya vertical i horisontal */
+    align-items: center; /* vertical */
+    justify-content: center; /* horisontal */
+    gap: 3px; /* rasstoyanie */
+    margin-bottom: 42px;
+}
+
+.images {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3px;
+    margin-left: 8%;
+}

@@ -1,0 +1,8 @@
+PROGRAM Print(INPUT, OUTPUT);
+USES
+  DOS;
+BEGIN 
+  WRITELN('Content-Type: text/plain');
+  WRITELN;
+  WRITELN('HTTP_USER_AGENT: ', GetEnv('HTTP_USER_AGENT'))
+END.

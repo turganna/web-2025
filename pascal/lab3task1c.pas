@@ -1,0 +1,8 @@
+PROGRAM Print(INPUT, OUTPUT);
+USES
+  DOS;
+BEGIN 
+  WRITELN('Content-Type: text/plain');
+  WRITELN;
+  WRITELN('CONTENT_LENGTH: ', GetEnv('CONTENT_LENGTH'))
+END.
